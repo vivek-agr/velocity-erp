@@ -1,3 +1,4 @@
+// This is the "Brain." It handles the accounting logic and ensures it is lightning-fast.
 use rust_decimal::prelude::*;
 use rust_decimal_macros::dec;
 

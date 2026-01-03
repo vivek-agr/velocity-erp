@@ -1,3 +1,4 @@
+// This mimics Tally Prime's most famous modern feature.
 class SearchPalette extends StatelessWidget {
   const SearchPalette({super.key});
 

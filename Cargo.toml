@@ -1,0 +1,8 @@
+# Ensure you have the kv-surrealkv feature enabled.
+[dependencies]
+# The core database engine
+surrealdb = { version = "2.0", features = ["kv-surrealkv"] }
+# Required for async database operations
+tokio = { version = "1.0", features = ["full"] }
+# For mapping Rust structs to Database objects
+serde = { version = "1.0", features = ["derive"] }
